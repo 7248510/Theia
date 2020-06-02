@@ -13,7 +13,7 @@ Create a Python data collection framework. Theia may replace the data repository
     * When deciding to scrape a website, view the Robots.txt and see if there's an API regarding data collection.
     * Time requests to a website.
     * Use headers and cookies. To generate a website cookie go to the domain > inspect element(f12(Firefox),(f12)(Brave) or...<br>
-    *Tap the right mouse button (click 'inspect element') 'navigate to the console') > alert(document.cookie); or console.log(document.cookie);
+    * Tap the right mouse button (click 'inspect element') 'navigate to the console') > alert(document.cookie); or console.log(document.cookie);
     * If you're using a VPN/TOR make sure your system time aligns with your connections time. If you have JavaScript enabled you can see current system time.(When extracting your cookie!)
     * Establish a goal, unless you're writting a spider determine what information you'd like to collect.  
 ## Modules:
