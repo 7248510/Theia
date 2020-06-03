@@ -1,7 +1,18 @@
 # Theia
 ## Goal: 
-Create a Python data collection framework. Theia may replace the data repository.
-## Technologies
+Create a Python data collection framework. Theia may replace the data repository.<br>
+Theia has two operations, harvesting data, and extracting data.
+## Operations:
+* Harvesting
+    * Gathering links
+    * Creating an archive
+    * Ability to compare changes
+    * SQL
+* Extraction
+    * Dictionaries
+    * JSON
+    * NOSQL
+## Technologies:
 * Databases
     * MySQL Community 
     * MongoDB
