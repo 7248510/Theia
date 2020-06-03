@@ -22,7 +22,6 @@ cnx = mysql.connector.connect(**sqlConf)
 cursor = cnx.cursor()
 #Mongo begins
 client = MongoClient('127.0.0.1', 27017) #Default port for MongoDB!
-
 #For the extraction operation! After the harvest operation is complete you should links you'd like to scrape. If you have some links you'd like to scrape paste them in the file.
 with open('Lists\info.txt', 'r') as f:
     urlList = [line.rstrip() for line in f]
