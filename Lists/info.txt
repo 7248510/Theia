@@ -1,4 +1,2 @@
+https://youtube.com
 https://google.com
-https://example.com
-https://www.whatismybrowser.com/detect/what-http-headers-is-my-browser-sending
-http://icanhazip.com
