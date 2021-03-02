@@ -24,5 +24,4 @@ As a result The framework will consist of two components. Python for harvesting 
     * Use headers and cookies. To generate a website cookie go to the domain > inspect element(f12(Firefox),(f12)(Brave) or...<br>
     * Tap the right mouse button (click 'inspect element') 'navigate to the console') > alert(document.cookie); or console.log(document.cookie);
     * If you're using a VPN/TOR make sure your system time aligns with your connections time. If you have JavaScript enabled you can see current system time.(When extracting your cookie!)
-      
 
