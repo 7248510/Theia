@@ -1,21 +1,23 @@
 # Theia
 ## Goal: 
-Create a web scraping framework. Python is fantastic for simpler tasks like harvesting. NodeJS was significantly easier than Python for extracting data on websites with a ton of JS.
-As a result The framework will consist of two components. Python for harvesting & JavaScript for extracting information.
+Create a Python data collection framework. Theia may replace the data repository.<br>
+Theia has two operations, harvesting data, and extracting data.
+## Operations:
+* Harvesting
+    * Gathering links
+    * Creating an archive
+    * Ability to compare changes
+    * SQL
+* Extraction
+    * Dictionaries
+    * JSON
+    * NOSQL
 ## Technologies:
-* Virtualization/Containers
-    * Docker
-    * VirtualBox
 * Databases
     * MySQL Community 
     * MongoDB
-* JavaScript
-    * NodeJS
-    * Axios
-    * Cheerio
-* Python
-    * BS4
-    * Requests
+* Language
+    * Python
 ## Tips:
     * Use NoScript or disable Javascript in your browser, you can't scrape something that isn't rendered.
     * Save web pages and launch a docker instance, VM, IIS, Flask, Nginx, Apache, XAMPP etc.
@@ -24,5 +26,11 @@ As a result The framework will consist of two components. Python for harvesting 
     * Use headers and cookies. To generate a website cookie go to the domain > inspect element(f12(Firefox),(f12)(Brave) or...<br>
     * Tap the right mouse button (click 'inspect element') 'navigate to the console') > alert(document.cookie); or console.log(document.cookie);
     * If you're using a VPN/TOR make sure your system time aligns with your connections time. If you have JavaScript enabled you can see current system time.(When extracting your cookie!)
-      
-
+    * Establish a goal, unless you're writting a spider determine what information you'd like to collect.  
+## Modules:
+* Scraping an array
+* Scraping from a list
+* Inserting into MySQL
+* Inserting into MongoDB
+* Creating lists
+* URL Schemas
