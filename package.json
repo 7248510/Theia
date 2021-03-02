@@ -1,0 +1,24 @@
+{
+  "name": "Theia",
+  "version": "1.0.0",
+  "description": "Create a JavaScript equivalent to Theia.\r ## Technologies:\r * Databases\r     * MySQL Community \r     * MongoDB\r * JavaScript\r     * NodeJS\r ## Tips:\r     * Use NoScript or disable Javascript in your browser, you can't scrape something that isn't rendered.\r     * Save web pages and launch a docker instance, VM, IIS, Flask, Nginx, Apache, XAMPP etc.\r     * When deciding to scrape a website, view the Robots.txt and see if there's an API regarding data collection.\r     * Time requests to a website.\r     * Use headers and cookies. To generate a website cookie go to the domain > inspect element(f12(Firefox),(f12)(Brave) or...<br>\r     * Tap the right mouse button (click 'inspect element') 'navigate to the console') > alert(document.cookie); or console.log(document.cookie);\r     * If you're using a VPN/TOR make sure your system time aligns with your connections time. If you have JavaScript enabled you can see current system time.(When extracting your cookie!)",
+  "main": "launch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7248510/Theia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7248510/Theia/issues"
+  },
+  "homepage": "https://github.com/7248510/Theia#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5"
+  }
+}
